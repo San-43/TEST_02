@@ -43,7 +43,7 @@ int main() {
             case 'T': case 't':
                 cin.ignore(numeric_limits<int>::max(), '\n');
                 c = valor();
-                cout << c << " grados Celcius equivalen a " << temperatura(c) << " grados Fahrenheit." << endl;
+                cout << c << " grados Celcius equivalen a " << temperatura(c) << " grados Fahrenheit. " << endl;
                 cout << endl;
                 system("pause");
 
